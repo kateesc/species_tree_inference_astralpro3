@@ -48,25 +48,19 @@ Special thanks to Assistant Professor **Josefin Stiller** (Department of Biology
 
 ## Citations and Software Credits
 
-If you use this workflow, please also cite the developers of the key tools:
-
 - **BUSCO**:  
-  Simão FA, Waterhouse RM, Ioannidis P, Kriventseva EV, Zdobnov EM. (2015).  
-  BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. *Bioinformatics*, 31(19), 3210–3212.  
-  [https://doi.org/10.1093/bioinformatics/btv351](https://doi.org/10.1093/bioinformatics/btv351)
+  Felipe A. Simão, Robert M. Waterhouse, Panagiotis Ioannidis, Evgenia V. Kriventseva, Evgeny M. Zdobnov,
+  BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs, Bioinformatics,
+  Volume 31, Issue 19, October 2015, Pages 3210–3212, https://doi.org/10.1093/bioinformatics/btv351
 
 - **ASTRAL-Pro**:  
-  Zhang C, Rabiee M, Sayyari E, Mirarab S. (2020).  
-  ASTRAL-Pro: Quartet-Based Species-Tree Inference despite Paralogy. *Molecular Biology and Evolution*, 37(11), 3292–3307.  
-  [https://doi.org/10.1093/molbev/msaa145](https://doi.org/10.1093/molbev/msaa145)
+  Chao Zhang, Celine Scornavacca, Erin K. Molloy, Siavash Mirarab. ASTRAL-Pro: quartet-based
+  species tree inference despite paralogy. Molecular Biology and Evolution, 2020, 10.1093/molbev/msaa139. hal-02866202
 
 - **HyPhy**:  
-  Kosakovsky Pond SL, Frost SDW, Muse SV. (2005).  
-  HyPhy: hypothesis testing using phylogenies. *Bioinformatics*, 21(5), 676–679.  
-  [https://doi.org/10.1093/bioinformatics/bti079](https://doi.org/10.1093/bioinformatics/bti079)
+  Sergei L. Kosakovsky Pond, Simon D. W. Frost, Spencer V. Muse, HyPhy: hypothesis testing using phylogenies, Bioinformatics,
+  Volume 21, Issue 5, March 2005, Pages 676–679, https://doi.org/10.1093/bioinformatics/bti079
 
 - **MAFFT**:  
-  Katoh K, Standley DM. (2013).  
-  MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution*, 30(4), 772–780.  
-  [https://doi.org/10.1093/molbev/mst010](https://doi.org/10.1093/molbev/mst010)
-
+  Kazutaka Katoh, Daron M. Standley, MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability,
+  Molecular Biology and Evolution, Volume 30, Issue 4, April 2013, Pages 772–780, https://doi.org/10.1093/molbev/mst010
