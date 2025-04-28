@@ -9,11 +9,11 @@
 #
 # Requirements:
 #   - ASTRAL-Pro3 installed (here accessed through ASTER module).
-#   - Gene trees for all BUSCO loci after cleaning (_fixed.treefile files).
+#   - Gene trees for all BUSCO loci (.treefile files).
 #   - A species mapping file linking gene copies to species names.
 #
 # Input Assumptions:
-#   - GENE_TREES_DIR contains *_fixed.treefile gene trees from IQ-TREE outputs.
+#   - GENE_TREES_DIR contains *.treefile gene trees from IQ-TREE outputs.
 #   - SPECIES_MAPPING is a two-column tab-separated file: [gene copy] [species].
 #
 # Outputs:
@@ -27,7 +27,7 @@ module load tools
 module load aster/20250224    # Module that provides access to ASTRAL-Pro3
 
 # Define paths (customize according to your project)
-GENE_TREES_DIR="/.../Gene_Trees"                                 # Folder with *_fixed.treefile outputs
+GENE_TREES_DIR="/.../Gene_Trees"                                 # Folder with *.treefile outputs
 GENE_TREES_FILE="$GENE_TREES_DIR/gene.trees"                     # Combined gene trees file
 OUTPUT_TREE="$GENE_TREES_DIR/species_tree.tre"                   # Output species tree
 SPECIES_MAPPING="/.../Mapping_File/species_mapping_cleaned.txt"  # Species mapping file
@@ -35,13 +35,13 @@ SPECIES_MAPPING="/.../Mapping_File/species_mapping_cleaned.txt"  # Species mappi
 # Ensure output directory exists
 mkdir -p "$GENE_TREES_DIR"
 
-# Step 1: Collect all *_fixed.treefile into a single file
+# Step 1: Collect all *.treefile into a single file
 echo "Collecting all cleaned gene trees into gene.trees..."
 
 > "$GENE_TREES_FILE"  # Clear previous gene.trees if it exists
 
 tree_count=0
-for tree_file in "$GENE_TREES_DIR"/*_fixed.treefile; do
+for tree_file in "$GENE_TREES_DIR"/*.treefile; do
     if [[ -f "$tree_file" ]]; then
         cat "$tree_file" >> "$GENE_TREES_FILE"
         ((tree_count++))
