@@ -44,12 +44,12 @@ Downstream analyses such as evolutionary rate estimation (e.g., root-to-tip dist
 
 ## Author
 
-- **Kate Escobar (shv402)**  
-  MSc in Bioinformatics, University of Copenhagen
+  **Kate Escobar **  
+  MSc in Bioinformatics, University of Copenhagen (UCPH)
 
 ## Acknowledgements
 
-Special thanks to **Josefin Stiller** and **Pablo D. Cárdenas** for guidance and support during the development of the original project.
+Special thanks to Assistant Professor **Josefin Stiller** (Department of Biology, Section for Ecology and Evolution, UCPH) and Assistant Professor **Pablo D. Cárdenas** (Department of Plant and Environmental Sciences, Section for Plant Biochemistry, UCPH) for guidance and support during the development of the original project.
 
 ## Citations and Software Credits
 
