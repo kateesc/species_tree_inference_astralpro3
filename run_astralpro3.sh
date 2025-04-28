@@ -65,8 +65,7 @@ astral-pro3 \
     -a "$SPECIES_MAPPING" \
     -u 2 \
     -v 2 \
-    --seed 233 \
-    --output-pp  # Include posterior probabilities in output
+    --seed 233
 
 # Step 3: Check if ASTRAL-Pro3 ran successfully
 if [ $? -eq 0 ]; then
