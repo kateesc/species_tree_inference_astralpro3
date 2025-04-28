@@ -37,8 +37,6 @@ While traditional species tree methods often assume single-copy genes, **ASTRAL-
 5. **Gene Tree Estimation**: Build maximum likelihood gene trees for each aligned BUSCO gene with IQ-TREE2.
 6. **Species Tree Inference**: Infer a coalescent species tree using ASTRAL-Pro3, accounting for duplications.
 
-> 🚀 Scripts and example commands are provided in the `/scripts` folder.
-
 ## Focus and Scope
 
 This repository focuses on species tree inference using **BUSCO markers** and **ASTRAL-Pro3** for plant genomes.  
