@@ -40,7 +40,6 @@ While traditional species tree methods often assume single-copy genes, **ASTRAL-
 ## Focus and Scope
 
 This repository focuses on species tree inference using **BUSCO markers** and **ASTRAL-Pro3** for plant genomes.  
-Downstream analyses such as evolutionary rate estimation (e.g., root-to-tip distances) are beyond the current scope but can be adapted if needed.
 
 ## Author
 
