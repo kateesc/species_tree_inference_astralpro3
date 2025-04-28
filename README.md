@@ -7,7 +7,7 @@ The approach uses **ASTRAL-Pro3** to account for gene tree discordance, includin
 
 The pipeline is based on the experience of analyzing _Chenopodium album_ genomes within Caryophyllales but is designed to be easily adapted to any plant clade with available genome assemblies.
 
-## Why this workflow?
+## About the Workflow
 
 While traditional species tree methods often assume single-copy genes, **ASTRAL-Pro3** allows the use of **multi-copy orthologs**, making it ideal for plant genomes, where polyploidy and gene duplications are common.  **BUSCO markers** provide a standardized and high-quality source of genes for this type of phylogenomic analysis.
 
