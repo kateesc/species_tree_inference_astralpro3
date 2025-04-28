@@ -55,7 +55,7 @@ Special thanks to Assistant Professor **Josefin Stiller** (Department of Biology
 
 - **ASTRAL-Pro**:  
   Chao Zhang, Celine Scornavacca, Erin K. Molloy, Siavash Mirarab. ASTRAL-Pro: quartet-based
-  species tree inference despite paralogy. Molecular Biology and Evolution, 2020, 10.1093/molbev/msaa139. hal-02866202
+  species tree inference despite paralogy. Molecular Biology and Evolution, 2020, https://doi.org/10.1093/molbev/msaa139
 
 - **HyPhy**:  
   Sergei L. Kosakovsky Pond, Simon D. W. Frost, Spencer V. Muse, HyPhy: hypothesis testing using phylogenies, Bioinformatics,
