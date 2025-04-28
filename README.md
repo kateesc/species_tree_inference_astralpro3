@@ -32,7 +32,7 @@ While traditional species tree methods often assume single-copy genes, **ASTRAL-
 
 1. **Genome Acquisition**: Download haploid or high-quality genome assemblies.
 2. **BUSCO Analysis**: Run BUSCO on each genome to extract orthologous genes (both single- and multi-copy).
-3. [**Multiple Sequence Alignment**](main/mafft_align.sh):: Align amino acid sequences of each BUSCO gene using MAFFT.
+3. [**Multiple Sequence Alignment**](mafft_align.sh): Align amino acid sequences of each BUSCO gene using MAFFT.
 4. **Codon-Aware Alignment**: Use HyPhy to map protein alignments back to nucleotide sequences.
 5. **Gene Tree Estimation**: Build maximum likelihood gene trees for each aligned BUSCO gene with IQ-TREE2.
 6. **Species Tree Inference**: Infer a coalescent species tree using ASTRAL-Pro3, accounting for duplications.
